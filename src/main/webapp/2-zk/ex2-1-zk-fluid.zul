@@ -1,0 +1,32 @@
+<zk>
+	<?page title="Fluid design with ZK components"?>
+	<?link rel="stylesheet" href="/resources/style/smalltalkstyle.css"?>
+	<div sclass="box downy">
+		<vlayout id="top" sclass="box bostonblue">
+			<hlayout>
+				<div id="menuitem1" hflex="1" sclass="box jaffa">
+					MenuItem 1
+				</div>
+				<div id="menuitem2" hflex="2" sclass="box jaffa">
+					MenuItem 2
+				</div>
+			</hlayout>
+			<div id="menuitem3" hflex="1" sclass="box jaffa">
+				MenuItem 3
+			</div>
+		</vlayout>
+		<hlayout id="main" sclass="box bostonblue">
+			<vlayout hflex="1">
+				<div id="header1" hflex="1" sclass="box jaffa">
+					Header 1
+				</div>
+				<div id="header2" hflex="1" sclass="box jaffa">
+					Header 2
+				</div>
+			</vlayout>
+			<div id="content" hflex="4" vflex="1" sclass="box jaffa">
+				Content
+			</div>
+		</hlayout>
+	</div>
+</zk>

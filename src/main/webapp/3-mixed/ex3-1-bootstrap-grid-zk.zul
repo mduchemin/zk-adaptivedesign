@@ -1,0 +1,35 @@
+<zk>
+	<?page title="Bootstrap grid system with ZK components"?>
+	<?link rel="stylesheet" href="/resources/style/smalltalkstyle.css"?>
+	<?link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.css"?>
+	<div sclass="box box-padding downy" apply="">
+		<div id="top" sclass="box box-padding bostonblue row">
+			<div id="menuitem1"
+				sclass="box box-padding jaffa col-sm-6 col-xs-6 col-md-4 col-lg-4">
+				MenuItem 1
+			</div>
+			<div id="menuitem2"
+				sclass="box box-padding jaffa col-sm-6 col-xs-6 col-md-4 col-lg-4">
+				MenuItem 2
+			</div>
+			<div id="menuitem3"
+				sclass="box box-padding jaffa col-sm-12 col-xs-12 col-md-4 col-lg-4">
+				MenuItem 3
+			</div>
+		</div>
+		<div id="main" sclass="box box-padding bostonblue row">
+			<div id="header1"
+				sclass="box box-padding jaffa col-sm-12 col-xs-12 col-md-6 col-lg-6">
+				Header 1
+			</div>
+			<div id="header2"
+				sclass="box box-padding jaffa col-sm-12 col-xs-12 col-md-6 col-lg-6">
+				Header 2
+			</div>
+			<div id="content"
+				sclass="box box-padding jaffa col-sm-12 col-xs-12 col-md-12 col-lg-12">
+				Content
+			</div>
+		</div>
+	</div>
+</zk>

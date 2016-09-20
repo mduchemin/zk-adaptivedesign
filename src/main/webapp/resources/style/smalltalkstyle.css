@@ -1,0 +1,19 @@
+.bostonblue{
+	background-color:#418DB6;
+}
+.downy{
+	background-color:#73C1CE;
+}
+.jaffa{
+	background-color:#ED7042;
+}
+.orangeroughy{
+	background-color:#D74C19;
+}
+.box{
+	border: 1px solid black;
+	text-align:center;
+}
+.box-padding{
+	padding: 15px;
+}
