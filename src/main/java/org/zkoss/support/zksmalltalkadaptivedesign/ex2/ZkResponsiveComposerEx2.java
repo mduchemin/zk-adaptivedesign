@@ -8,7 +8,7 @@ import org.zkoss.zk.ui.select.SelectorComposer;
 import org.zkoss.zk.ui.select.annotation.Wire;
 import org.zkoss.zul.Div;
 
-public class ZkResponsiveComposer extends SelectorComposer<Component> {
+public class ZkResponsiveComposerEx2 extends SelectorComposer<Component> {
 	private static final long serialVersionUID = -3633621805909230105L;
 	private boolean bigLayout;
 	
@@ -24,9 +24,9 @@ public class ZkResponsiveComposer extends SelectorComposer<Component> {
 		comp.addEventListener(Events.ON_CLIENT_INFO, new EventListener<ClientInfoEvent>() {
 			public void onEvent(ClientInfoEvent event) throws Exception {
 				System.out.println(event.getDesktopWidth());
-				if(event.getDesktopWidth()>800 && !bigLayout){
+				if(event.getDesktopWidth()>992 && !bigLayout){
 					handleBigLayout();
-				}else if(event.getDesktopWidth()<=800 && bigLayout){
+				}else if(event.getDesktopWidth()<=992 && bigLayout){
 					handleSmallLayout();
 				}
 			}

@@ -1,0 +1,8 @@
+<?import org.zkoss.support.zksmalltalkadaptivedesign.ex4.ZkResponsiveViewModelEx4?>
+<zk>
+	<div viewModel="@id('vm')@init('ex4.ZkResponsiveViewModelEx4')">
+		<apply template="@load(vm.currentTemplate)" />
+		<template name="${ZkResponsiveViewModelEx4.SMALL_TEMPLATE}">
+		</template>
+	</div>
+</zk>
